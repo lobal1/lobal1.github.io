@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta name="keywords" content="package delivery, air courier, nationwide courier service, nationwide delivery service, courier service, Boston messenger, Pheonix, Tempe, AZ, Boston courier,New York Messenger, Boston, New York Courier, mail center, same day delivery, same day delivery service, sameday, same-day, courier, messenger, next flight out, small packages, skid transport, mail, package forwarding, air cargo, Massachusetts, MA, mail services, postal service, legal delivery, air freight,Boston Express, express handling, overnight express, speedy package delivery, CA, FL, medical delivery, usacouriers, usa courier, air fright, air cargo, air courier, medical courier, onboard courier, charter flights, cargo charter" http-equiv="Keywords" />
+	<meta name="Description" content="Safe Hands Express is the anytime, anyplace, anything solution for those who want something delivered fast - from a human heart to an airplane, by land or by air with safety and security." http-equiv="Description" />
+		<style>
+
+#mybgcarousel{ /* CSS for specific carousel container called #mybgcarousel. */
+width:100%;
+height:573px;
+}
+
+/* ######### Shared CSS for various parts of carousel (in the event of multiple carousels) ######### */
+
+div.bgcarousel{ /* shared CSS for main carousel container */
+background: black url(ajaxload.gif) center center no-repeat; /* loading gif while caoursel is loading */
+}
+
+div.bgcarousel img.navbutton{ /* CSS for the nav buttons */
+}
+
+div.bgcarousel div.slide{ /* CSS for each image's DIV container within main container */
+background-color: black;
+background-position: center center; /* center image within carousel */
+background-repeat: no-repeat;
+background-size: cover; /* CSS3 property to scale image within container? "cover" or "contain" */
+color: black;
+}
+
+div.bgcarousel div.selectedslide{ /* CSS for currently selected slide */
+}
+
+div.bgcarousel div.slide div.desc{ /* DIV that contains the textual description inside .slide */
+position: absolute;
+color: black;
+right: 40px;
+top: 100px;
+width:400px;
+padding: 10px;
+font: bold 16px sans-serif, Arial;
+text-shadow: 0 -1px 1px #8a8a8a; /* CSS3 text shadow */
+z-index:5;
+}
+
+div.bgcarousel div.selectedslide div.desc{ /* CSS for currently selected slide's desc div */
+}
+
+div.bgcarousel div.slide div.desc h2{
+font-size:150%;
+margin:0;
+}
+
+div.bgcarousel div.slide div.desc a{
+color:yellow;
+text-decoration:none;
+}
+
+</style>
+
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/jquery-2.1.1.js"></script>
+
+<script src="jquery.velocity.min.js"></script>
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+
+<script src="bgcarousel.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var firstbgcarousel=new bgCarousel({
+	wrapperid: 'mybgcarousel', //ID of blank DIV on page to house carousel
+	imagearray: [
+		['images/freight.jpg', '<h2><span>Recognized Affiliates.</span><sup>&reg;</sup></h2>Partnership with respect and efficient <strong>Establishments</strong> to become the best Courier Service.'], //["image_path", "optional description"]
+		['images/shipping.jpg', '<h2><span>Always There. </span>Always Delivering.<sup>&reg;</sup></h2>Supporting customers, communities and commerce between Alaska, Hawaii and the UK, Napoli Air delivers on our promise of service excellence to every customer. <strong>Always</strong>.'],
+		['images/warehouse.jpg', '<h2><span>Security Assured.<sup>&reg;</sup></span></h2>Unlimited warehouse space to meet all our customer\'s demands with safety guaranteed.'	],
+		['images/airfreightservices.jpg', '<h2>Shipping Simplified.</h2>Supporting customers, communities and commerce between Alaska, Hawaii and the UK, Napoli Air delivers on our promise of service excellence to every customer.'] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:3000, cycles:2, stoponclick:false, pauseonmouseover:true},
+	navbuttons: ['left.gif', 'right.gif', 'up.gif', 'down.gif'], // path to nav images
+	activeslideclass: 'selectedslide', // CSS class that gets added to currently shown DIV slide
+	orientation: 'h', //Valid values: "h" or "v"
+	persist: true, //remember last viewed slide and recall within same session?
+	slideduration: 500 //transition duration (milliseconds)
+})
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>{{ site.data.global.title }}{{ page.title }}</title>
+<style type="text/css">
+a{ color:#FFFFFF}
+html {	background: #ffffff; }
+body {
+	margin: 0; padding: 0;
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff; 
+}
+h1 {
+	font: 4.7em normal Georgia, 'Times New Roman', Times, serif;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+}
+h1 small{
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1.4em;
+	display: block;
+	color: #ccc;
+}
+.container {
+	width: 520px;
+	height: 330px;
+	position: absolute;
+	top: 50%; left: 50%;
+	margin: -0px 0 0 -210px;
+	overflow: hidden;
+}
+img {border: none;}
+ul#topnav {
+	margin: -0px 0 5px; 
+	padding: 0; 
+	list-style: none;	
+	font-size: 1.2em;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+ul#topnav li{
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden; 
+	float: left; 
+	height:40px;
+}
+ul#topnav a, ul#topnav span {
+	padding: 10px 19px; 
+	float: left; 
+	text-decoration: none; 
+	color: #fff;
+	text-transform: uppercase;
+	clear: both;
+	height: 20px;
+	line-height: 20px;
+	background: #39393c; 
+}
+ul#topnav a {	color: #7bc441; }
+ul#topnav span {
+	display: none;
+}
+
+ul#topnav.v2 span{
+	background: url(images/menu_bg.gif) repeat-x left top;
+}
+ul#topnav.v2 a{
+	color: #FFFFFF;
+	
+}
+</style>
+
+<style type="text/css">
+<!--
+body {
+	background-image: url();
+	background-repeat: repeat-x;
+}
+.style1 {	font-family: Arial;
+	font-size: 10px;
+	color: #4a4a4a;
+}
+.style10 {font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style12 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #006633; }
+.style13 {color: #272727}
+.style4 {font-family: Arial; font-size: 12px; color: #272727; }
+.style14 {color: #39393c; font-size: 12px; }
+.style15 {font-family: Arial; font-size: 10px; color: #4a4a4a; font-weight: bold; }
+.style9 {font-family: Arial; font-size: 10px; color: #0857B6; }
+.style22 {
+	color: #39393c;
+	font-weight: bold;
+}
+.style24 {color: #FFFFFF}
+-->
+</style></head>
